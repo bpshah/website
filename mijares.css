@@ -15,9 +15,10 @@ p {
 
 header {
 	height: 20%;
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,15 +27,17 @@ h1,h2,h3,h4,h5,h6 {
 
 nav {
 	font-weight: bold;
-	background-color: #777777;
+	background-color: #2f3742;
 }
 
 footer {
-	font-size: 0.70em;
+	font-size: 15px;
+	font-weight: 400;
 	font-style: italic; 
    	position: fixed;
    	text-align: center;
    	left: 0;
+   	height: 70px;
    	bottom: 0;
    	width: 100%;
    	background-color: #000033;
@@ -46,7 +49,8 @@ a {
 
 .h {
 	display: inline-block;
-	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	margin-bottom: -1%
@@ -56,7 +60,8 @@ a.selected:link, a.selected:visited {
 	color: blue;
 	font-weight: bold;
 	text-decoration: none;
-	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	display: inline-block;
 	margin-bottom: -1%
 }
@@ -80,149 +85,163 @@ a.selected:link, a.selected:visited {
 }
 
 #logosec1 {
-	margin-left: 20%;
-	margin-top: 0%
+	margin-left: 8%;
+	padding-top: 5%
 }
 
 #title1 {
 	color: blue;
-	margin-left: 20%;
+	margin-left: 8%;
 	margin-top: 0%;
 	margin-right: 0%;
 }
 
 #title2 {
-	font-size: 0.9em;
-	margin-left: 20%;
+	margin-left: 8%;
 	margin-top: -1%;
-	font-weight: bold;
 }
 
 #biodata {
 	float: right;
-	margin-top: -14%;
+	margin-top: -16%;
 	margin-right: 37%;
 }
 
 #biodatadesc {
-	float: right;margin-top: -12.5%;margin-right: 11.8%;font-size: 0.8em;width: 35%
+	float: right;
+	margin-top: -13.5%;
+	margin-right: 11.8%;
+	font-size: 15px;
+	width: 35%;
+	font-weight: 400;
 }
 
 #sec2 {
-	margin-top: 2%;
+	margin-top: 12%;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
 #sec2img {
-	margin-left: 49%;
+	margin-left: 37%;
 }
 
 #proposito {
 	margin-top: 0%;
+	margin-left: -20%;
 }
 
 #propositodesc {
-	width: 80%;
+	width: 60%;
 	max-height: 10%;
-	margin-top: -2%;
-	font-size: 0.8em;
-	margin-left: 10%
+	margin-top: -1%;
+	font-size: 15px;
+	margin-left: 10%;
+	font-weight: 400;
 }
 
 #sec3 {
-	margin-top: 0%;
-	width: 100%;
-	align-self: center;
+	margin-top: 10%;
+	max-width: 100%;
+	background-color: #F8F8FF;
 }
 
 #iframeinicio {
-	margin-left: 15%;
+	margin-left: 0%;
 	margin-top: 1%;
+	margin-bottom: 10%;
 }
 
 #objetivos {
 	float: right;
 	margin-top: 0%;
-	margin-right: 40%;
+	margin-right: 38%;
 	font-weight: bold;
+	background-color: #F8F8FF;
 }
 
 #objetivosdesc {
 	float: right;
-	margin-top: -12%;
-	margin-right: 18%;
-	font-size: 0.8em;
-	width: 30%
+	margin-top: -25%;
+	margin-right: 10%;
+	font-size: 15px;
+	font-weight: 400;
+	width: 35%;
+	background-color: #F8F8FF;
 }
 
 #footerp {
 	margin-left: -35%; 
-	margin-top: 5%;
+	margin-top: 3%;
 	background-color: #000033;
 }
 
 #centrodiv1 {
 	display: inline;
+	margin-top: 5%;
 }
 
 #misionh {
-	margin-left: 20%;
+	margin-left: 12%;
 	color: blue;
-	margin-top: -1%;
+	padding-top: 8%;
 }
 
 #misiondesc {
-	margin-left: 6%;
-	width: 35%;
-	margin-top: -1%;
-	font-size: 0.8em;
+	margin-left: -4%;
+	width: 42%;
+	margin-top: 0%;
+	font-size: 15px;
+	font-weight: 400;
 }
 
 #visionh{
 	float: right;
-	margin-right: 28%;
-	margin-top: -10.9%;
+	margin-right: 31%;
+	margin-top: -14%;
 	color: blue;
 }
 
 #visiondesc{
 	float : right;
-	margin-right: 15%;
-	width: 35%;
+	margin-right: 12.5%;
+	width: 44%;
 	margin-top: -8%;
-	font-size: 0.8em;
+	font-size: 15px;
+	font-weight: 400;
 }
 
 #valores {
-	margin-top: 0%;
-	margin-right: 5.5%;
+	margin-top: 1%;
+	margin-right: 15.5%;
 }
 
 #valoresdesc {
-	width: 80%;
+	width: 48%;
 	max-height: 10%;
 	margin-top: -1%;
-	font-size: 0.8em;
-	margin-left: 9%
+	font-size: 15px;
+	margin-left: 18%;
+	font-weight: 400;
 }
 
 #valoresimg {
-	margin-left: 46%;
-	margin-top: -1%;
+	margin-left: 40%;
+	margin-top: 8%;
 }
 
 #boxes {
 	display: inline-block;
+	margin-top: 5%;
 }
 
 #col1 {
 	height: 10%;
-	width: 20%;
-	margin-left: 6%;
+	width: 23.5%;
+	margin-left: -1%;
 	margin-top: 1%;
-	background-color:  #faf5f5; 
+	background-color: #F8F8FF; 
 	float : left;
 }
 
@@ -231,18 +250,19 @@ a.selected:link, a.selected:visited {
 }
 
 #col1socialdesc {
-	font-size: 0.8em;
-	background-color: #faf5f5;
-	margin-top: -6%;
+	font-size: 15px;
+	background-color: #F8F8FF; 
+	margin-top: -2%;
 	margin-bottom: -2%;
 	padding-left: 4%;
 	padding-right: 4%;
-
+	font-weight: 400;
 }
 
 #col1corrdesc {
-	font-size: 0.8em;
-	background-color: #faf5f5;
+	font-size: 15px;
+	font-weight: 400;
+	background-color: #F8F8FF; 
 	margin-top: -6%;
 	margin-bottom: -2%;
 	padding-left: 4%;
@@ -251,9 +271,9 @@ a.selected:link, a.selected:visited {
 
 #col2 {
 	float: left;
-	width: 20%;
+	width: 26.5%;
 	display: block;
-	margin-left: 12%;
+	margin-left: 5%;
 	margin-top: 0%;
 }
 
@@ -262,27 +282,29 @@ a.selected:link, a.selected:visited {
 	margin-top: 1%;
 	margin-bottom: 2%;
 	height: 20%;
-	background-color:  #faf5f5; 
+	background-color: #F8F8FF; 
 }
 
 #col22 {
 	margin-left: 10%;
 	margin-top: -4%;
 	height: 20%;
-	background-color:  #faf5f5; 
+	background-color: #F8F8FF; 
 }
 
 #fradesc {
-	background-color:  #faf5f5;
-	font-size: 0.8em;
+	background-color: #F8F8FF; 
+	font-size: 15px;
+	font-weight: 400;
 	margin-top: -3%;
 	padding-left: 4%;
 	padding-right: 4%;
 }
 
 #soldesc {
-	background-color:  #faf5f5;
-	font-size: 0.8em;
+	background-color: #F8F8FF; 
+	font-size: 15px;
+	font-weight: 400;
 	margin-top: -3%;
 	padding-left: 4%;
 	padding-right: 4%;
@@ -298,16 +320,17 @@ a.selected:link, a.selected:visited {
 
 #col3{
 	float: right;
-	width: 25%;
+	width: 22%;
 	display: block;
-	margin-right: 10%;
+	margin-right: 18%;
+	margin-bottom: 5%;
 }
 
 #col31 {
 	margin-left: 10%;
 	margin-top: -1%;
 	height: 20%;
-	background-color:  #faf5f5;
+	background-color: #F8F8FF; 
 }
 
 #col32 {
@@ -315,16 +338,17 @@ a.selected:link, a.selected:visited {
 	margin-top: -1%;
 	margin-bottom: 2%;
 	height: 25%;
-	background-color:  #faf5f5;
+	background-color: #F8F8FF; 
 }
 
 #col31lib{
-	background-color:  #faf5f5;
+	background-color: #F8F8FF; 
 }
 
 #libdesc{
-	background-color:  #faf5f5;
-	font-size: 0.8em;
+	background-color: #F8F8FF; 
+	font-size: 15px;
+	font-weight: 400;
 	margin-top: -8%;
 	padding-left: 4%;
 	padding-right: 4%;
@@ -335,12 +359,13 @@ a.selected:link, a.selected:visited {
 }
 
 #col32con {
-	background-color:  #faf5f5;
+	background-color: #F8F8FF; 
 }
 
 #condesc {
-	background-color:  #faf5f5;
-	font-size: 0.8em;
+	background-color: #F8F8FF; 
+	font-size: 15px;
+	font-weight: 400;
 	margin-top: -8%;
 	padding-left: 4%;
 	padding-right: 4%;
@@ -352,15 +377,18 @@ a.selected:link, a.selected:visited {
 
 #col1eventos {
 	float: left;
-	margin-left: 13%;
+	margin-left: 0%;
+	margin-top: 5%;
+	margin-bottom: 8%;
 	width: 35%;
-	font-size: 0.8em;
+	font-size: 15px;
+	font-weight: 400;
 }
 
 #col2eventos {
 	float: right;
-	margin-right: 16%;
-	margin-top: 5%;
+	margin-right: 13%;
+	margin-top: 14%;
 }
 
 #login {
@@ -398,7 +426,8 @@ a.selected:link, a.selected:visited {
 ::placeholder {
 	opacity: 2;
 	padding-left: 5px;
-	font-size: 0.8em;
+	font-size: 15px;
+	font-weight: 400;
 }	
 
 #loginbtn {
