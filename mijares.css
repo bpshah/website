@@ -19,6 +19,7 @@ header {
 	position: fixed;
 	left: 0;
 	top: 0;
+	color: #000033;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -31,7 +32,7 @@ nav {
 }
 
 footer {
-	font-size: 15px;
+	font-size: 0.7em;
 	font-weight: 400;
 	font-style: italic; 
    	position: fixed;
@@ -41,6 +42,41 @@ footer {
    	bottom: 0;
    	width: 100%;
    	background-color: #000033;
+   	display: inline-block;
+}
+
+#loginbtn {
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff
+				100%); 
+	background-size: 200% auto;
+	padding-top: 0px 35px; 
+	color: #222222;
+	border-radius: 5px;
+	height: 40px;
+	width: 95px;
+	margin-left: 1%;
+	margin-top: -150%;
+}
+
+#footerp {
+	margin-left: -50%; 
+	margin-top: 2.75%;
+	background-color: #000033;
+}
+
+#fblogo {
+	float: right;
+	margin-top: -2%;
+	margin-right: 32%;
+	color: #1a1aff;
+}
+
+#twlogo {
+	float: right;
+	margin-top: -2%;
+	margin-right: 30%;
+	color: #0099ff;
+
 }
 
 a {
@@ -72,7 +108,7 @@ a.selected:link, a.selected:visited {
 
 #sec1 {
 	margin-left: 10%;
-	margin-top: -1%;
+	margin-top: 1%;
 	display: inline;
 	height: 33%;
 	width: 80%;
@@ -80,13 +116,13 @@ a.selected:link, a.selected:visited {
 }
 
 #sec1div1 {
-	margin-left: 5%;
-	margin-top: 0%
+	margin-left: 0%;
+	margin-bottom: -3%;
 }
 
 #logosec1 {
 	margin-left: 8%;
-	padding-top: 5%
+	padding-top: 10%;
 }
 
 #title1 {
@@ -143,8 +179,9 @@ a.selected:link, a.selected:visited {
 
 #sec3 {
 	margin-top: 10%;
-	max-width: 100%;
-	background-color: #F8F8FF;
+	background-size: auto;
+	background: #FFFFFF;
+	width: 100%;
 }
 
 #iframeinicio {
@@ -158,7 +195,6 @@ a.selected:link, a.selected:visited {
 	margin-top: 0%;
 	margin-right: 38%;
 	font-weight: bold;
-	background-color: #F8F8FF;
 }
 
 #objetivosdesc {
@@ -168,14 +204,8 @@ a.selected:link, a.selected:visited {
 	font-size: 15px;
 	font-weight: 400;
 	width: 35%;
-	background-color: #F8F8FF;
 }
 
-#footerp {
-	margin-left: -35%; 
-	margin-top: 3%;
-	background-color: #000033;
-}
 
 #centrodiv1 {
 	display: inline;
@@ -378,7 +408,7 @@ a.selected:link, a.selected:visited {
 #col1eventos {
 	float: left;
 	margin-left: 0%;
-	margin-top: 5%;
+	margin-top: 6%;
 	margin-bottom: 8%;
 	width: 35%;
 	font-size: 15px;
@@ -388,7 +418,7 @@ a.selected:link, a.selected:visited {
 #col2eventos {
 	float: right;
 	margin-right: 13%;
-	margin-top: 14%;
+	margin-top: 18%;
 }
 
 #login {
@@ -408,19 +438,19 @@ a.selected:link, a.selected:visited {
 #email {
 	float: left;
 	border-radius: 4px;
-	width: 27%;
+	width: 40%;
 	height: 30px;
 	margin-right : 20%;
-	margin-left: -22%;
+	margin-left: -35%;
 }
 
 #pwd {
 	float: right;
 	border-radius: 4px;
-	width: 27%;
+	width: 40%;
 	height: 30px;
-	margin-right : 62%;
-	margin-top: -5%;
+	margin-right : 49%;
+	margin-top: -5.1%;
 }
 
 ::placeholder {
@@ -430,15 +460,92 @@ a.selected:link, a.selected:visited {
 	font-weight: 400;
 }	
 
-#loginbtn {
+#registro1 {
+	margin-top: 10%;
+	margin-left: -13%;
+	margin-bottom: 8%;
+}
+
+#registroh {
+	margin-left: -2%;
+}
+
+#registro2 {
+	display: inline;
+	margin-top: 5%;
+}
+
+#rname {
+	border-radius: 4px;
+	width: 175%;
+	height: 30px;
+	margin-left: -0%;
+	margin-top: -1.9%;
+}
+
+#remail {
+	border-radius: 4px;
+	width: 175%;
+	height: 30px;
+	margin-right : 0%;
+}
+
+#rpwd {
+	border-radius: 4px;
+	width: 175%;
+	height: 30px;
+}
+
+#rpwd1 {
+	border-radius: 4px;
+	width: 175%;
+	height: 30px;
+}
+
+#rdir {
+	border-radius: 4px;
+	width: 49%;
+	height: 30px;
+	margin-top: 0%;
+}
+
+#rdiv1 {
+	display: inline-block;
+	margin-top: -5%;
+}
+
+#rdiv2 {
+	display: inline-block;
+	margin-left: 13%;
+}
+
+#rdiv3 {
+	display: inline;
+	margin-left: -40.1%;
+}
+
+#nonform {
+	margin-left: 68%;
+	margin-top: -17%;
+}
+
+#formr {
+	margin-left: -2%;
+}
+
+#rh {
+	margin-left: -34%;
+}
+
+#loginbtnr {
+
 	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff
 				100%); 
 	background-size: 200% auto;
 	padding-top: 0px 35px; 
 	color: #222222;
 	border-radius: 5px;
-	height: 30px;
-	width: 70px;
-	margin-left: 2.5%;
-	margin-top: -150%;
+	height: 40px;
+	width: 95px;
+
 }
